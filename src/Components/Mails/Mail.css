@@ -1,0 +1,30 @@
+.middle{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+
+}
+
+.left{
+    width: 20%;
+    display: flex;
+    justify-content: left;
+}
+
+.right-subject{
+    width: 70%;
+}
+
+.star-icon{
+    color: gray;
+    cursor: pointer;
+}
+
+.star-icon:hover{
+    color: yellow;
+}
+
+
+.subject{
+    color:rgb(70, 58, 58);
+}

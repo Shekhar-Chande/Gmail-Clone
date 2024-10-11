@@ -1,10 +1,18 @@
 import Navbar from "../../Components/Navbar/Navbar"
 import Leftbar from "../../Components/Leftbar/Leftbar"
-function Home(){
-    return(
+import Middle from "../../Components/Middle/Middle"
+import Rightbar from "../../Components/Rightbar/Rightbar"
+import './Home.css'
+function Home() {
+    return (
         <>
-            <Navbar/>
-            <Leftbar/>
+            <Navbar />
+            <div className="body">
+                <Leftbar />
+                <Middle/>
+                <Rightbar />
+            </div>
+
         </>
     )
 }

@@ -1,7 +1,8 @@
 import './Mail.css'
 import { IoMdStarOutline } from "react-icons/io";
-
+import { useState } from 'react';
 function Mail({to, subject}) {
+    const[starColor, setStarColor] = useState("")
     return (
         <>
             <div className="middle">
@@ -10,7 +11,7 @@ function Mail({to, subject}) {
                         <input type="checkbox" />
                     </div>
                     <div className="star">
-                        <IoMdStarOutline className='star-icon'/>
+                        <IoMdStarOutline  className='star-icon'/>
                     </div>
                     <div className="to">
                             {to}

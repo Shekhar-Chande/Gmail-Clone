@@ -3,10 +3,11 @@ import Leftbar from "../../Components/Leftbar/Leftbar"
 import Middle from "../../Components/Middle/Middle"
 import Rightbar from "../../Components/Rightbar/Rightbar"
 import './Home.css'
+// import Login from "../../Components/Login/Login"
 function Home() {
     return (
         <>
-            <Navbar />
+              <Navbar />
             <div className="body">
                 <Leftbar />
                 <Middle/>

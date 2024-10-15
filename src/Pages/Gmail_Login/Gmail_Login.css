@@ -1,0 +1,27 @@
+.container-gmail{
+    display: flex;
+}
+
+#homepage-gmail{
+    width: 100%;
+    height: 100vh;
+}
+
+.left-gmail{
+    width: 50%;
+    /* height: 100vh; */
+    margin-left: -50px;
+}
+
+.right-gmail{
+    width: 50%;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logn{
+    width: 200px;
+}
+
